@@ -8,13 +8,9 @@ def create_app(config_file):
     # Main app object initialization block.
     app = Flask(__name__)
     app.config.from_object(config_file)
-
     db.init_app(app)
 
-    #Registering blueprints..
-
-    #Importing models
-    from domain.entities import Request
+    #Registering blueprints here ...
     return app
 
 db = SQLAlchemy()
