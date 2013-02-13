@@ -3,7 +3,7 @@ Flask-starter
 
 Lightweight skelethon for flask application.
 
-Just clone it and, setup requirements pip install -r requirements.txt
+Just clone it and setup requirements - [pip install -r requirements.txt]
 
 Includes configuration for:
 * database
